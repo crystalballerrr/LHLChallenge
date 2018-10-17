@@ -15,14 +15,17 @@ function countRows() {
   var row = GRID.length;
   return row;
 }
+
  function countColumns() {
   var column = GRID[0].length;
   return column;
  }
+
 function gridSize() {
  var size = countColumns() + ' ' + 'x' +  ' ' + countRows();
  return size;
 }
+
 function totalCells() {
   var total = countRows() * countColumns();
 	return total;
